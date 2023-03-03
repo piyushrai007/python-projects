@@ -23,12 +23,12 @@ def wishMe():
         speak("Good Morning!")
 
     elif hour>=12 and hour<18:
-        speak("Good Afternoon!")   
+        speak("Good Afternoon piyush!")   
 
     else:
-        speak("Good Evening!")  
+        speak("Good Evening piyush!")  
 
-    speak("I am Jarvis Sir. Please tell me how may I help you")       
+    speak("I am Jarvis boss. Please tell me how may I help you")       
 
 def takeCommand():
     
@@ -106,4 +106,4 @@ if __name__ == "__main__":
                 speak("Email has been sent!")
             except Exception as e:
                 print(e)
-                speak("Sorry my friend harry bhai. I am not able to send this email")    
+                speak("Sorry not able to send mail ")    
